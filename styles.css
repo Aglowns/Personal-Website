@@ -1,0 +1,83 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Style for the header image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    display: block;
+    margin: 0 auto 20px; /* Centers the image and adds spacing */
+    border: 3px solid #fff; /* Adds a white border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+}
+
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about, #portfolio, #skills, #contact {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Skills */
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    background: #e4e4e4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+/* Solid color background for the whole page */
+body {
+    background-color: #f0f4f8; /* A light blue-gray color */
+}
+
+/* Section backgrounds stay white */
+section {
+    background-color: #fff;
+}
